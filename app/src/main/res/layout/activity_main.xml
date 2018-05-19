@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/vnosno"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="shrani"
+        android:text="@string/shrani"
+        android:layout_below="@id/vnosno"
+        android:id="@+id/gumb_shrani"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="izpisi"
+        android:text="@string/izpisi"
+        android:layout_below="@id/vnosno"
+        android:layout_toRightOf="@id/gumb_shrani"/>
+
+
+</RelativeLayout>
